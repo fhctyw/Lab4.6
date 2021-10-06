@@ -13,12 +13,12 @@ int main()
 	double S1, S2;
 	int k, i;
 
-	k = 1;
 	S1 = 0;
+	k = 1;
 	while (k <= 20)
 	{
-		i = k;
 		S2 = 0;
+		i = k;
 		while (i <= (40 - k))
 		{
 			S2 += i * i;
@@ -29,12 +29,12 @@ int main()
 	}
 	cout << S1 << endl;
 
-	k = 1;
 	S1 = 0;
+	k = 1;
 	do
 	{
-		i = k;
 		S2 = 0;
+		i = k;
 		do
 		{
 			S2 += i * i;
